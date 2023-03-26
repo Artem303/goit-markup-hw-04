@@ -234,6 +234,13 @@ padding: 16px 32px;
    padding-top: 24px;
    padding-bottom: 24px;
 }
+.description-svg {
+    margin-bottom: 8px;
+}
+.description-svg:hover,
+.description-svg:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 /* ----------------------------features --------------------*/
 .features-title, .team-title, .customers-title {
     text-align: center ;
@@ -310,8 +317,6 @@ color: var(--SLATE);
     gap: 24px;
     justify-content: center;
 }
-
-
 .social-list-link {
     width: 40px;
     height: 40px;
@@ -320,6 +325,10 @@ color: var(--SLATE);
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* -----------------CUSTOMERS----------------------- */
 .customers-section {
@@ -347,6 +356,10 @@ color: var(--SLATE);
 }
 .customers-item {
     width: calc((100% - 120px) / 6);
+}
+.customers-link:hover,
+.customers-link:focus {
+    box-shadow:  4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*------------------------- Footer----------------------- */    
@@ -393,6 +406,10 @@ color: var(--SLATE);
     background-color: var(--SLATE);
     justify-content: center;
     align-items: center;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* ------------------PROJECT PORTFOLIO -------------------*/
