@@ -320,7 +320,7 @@ color: var(--SLATE);
 .social-list-link {
     width: 40px;
     height: 40px;
-    background-color: var(--OCEAN);
+    background-color: var(--IRIS);
     border-radius: 50%;  
     display: flex;
     justify-content: center;
@@ -345,7 +345,6 @@ color: var(--SLATE);
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 120px;
 }
 
 .customers-link {
@@ -354,12 +353,20 @@ color: var(--SLATE);
     padding: 16px 32px;
     display: flex;
 }
+.customers-icon {
+    fill: var(--LIGHT-SLATE);
+}
 .customers-item {
     width: calc((100% - 120px) / 6);
 }
 .customers-link:hover,
 .customers-link:focus {
-    box-shadow:  4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow:  4px 4px rgba(0, 0, 0, 0.25); 
+    border: 1px solid var(--OCEAN);
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+    fill: var(--OCEAN);
 }
 
 /*------------------------- Footer----------------------- */    
@@ -403,13 +410,14 @@ color: var(--SLATE);
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: var(--SLATE);
+    background-color: var(--IRIS);
     justify-content: center;
     align-items: center;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--GREEN);
 }
 
 /* ------------------PROJECT PORTFOLIO -------------------*/
