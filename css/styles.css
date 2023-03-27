@@ -279,7 +279,8 @@ padding: 16px 32px;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
-color: var(--SLATE);
+    color: var(--SLATE);
+    margin-bottom: 8px;
 }
 
 .team-list {
@@ -380,10 +381,13 @@ color: var(--SLATE);
     color: #F4F4FD;
 }
 .footer-text {
+        margin-top: 16px;
+}
+.footer-text {
    
     font-size: 16px;
-        line-height: 1.5;
-        color: #F4F4FD ;
+    line-height: 1.5;
+    color: #F4F4FD ;
 }
 .footer > .container {
     display: flex;
